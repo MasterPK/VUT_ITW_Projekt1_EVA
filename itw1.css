@@ -1,0 +1,53 @@
+ul.navbar-nav>li {
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-left: 10px;
+    letter-spacing: 0.2em;
+}
+
+.navbar-nav>li>a:link, .navbar-nav>li>a:hover, .navbar-nav>li>a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+#main
+{
+    max-width: 1110px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+#page-top{
+    font-family: "Montserrat";
+    background-image: url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 95vh;
+    display: flex;
+    justify-content: center;
+}
+
+#section-home{
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content{
+    text-align:center;
+}
+
+.dark>div>h1{
+    color: white;
+    font-size: 62px;
+
+}
+
+.dark>div{
+    color: white;
+    font-size: 16px;
+}
